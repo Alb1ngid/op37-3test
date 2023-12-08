@@ -1,0 +1,10 @@
+git init - инициализатор гита чтобы гит отслеживал проект
+git remote add origin link -  проект привязывается с репозиторием который вы указали
+
+.gitignore
+
+
+git add .\namefile - добавит файлы для пуша
+git commit -m 'lesson'- cоздает чекпоит для сохранения
+git push origin master\main - отправляет файлы в репозиторий
+

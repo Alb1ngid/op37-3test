@@ -1,6 +1,8 @@
 import random
+
 # class
 # парадигмы ооп - 4 Наследование полирофизм
+
 
 def a(b, c):
     return b + c
@@ -29,6 +31,8 @@ class Hum:
     def __str__(self):
         return f'{self.head} {self.name} {self.age}'
 
+    def __len__(self):
+        return len(self.name)
 
 # обьект или экземпляр класса
 
@@ -39,5 +43,6 @@ ainura = Hum('ainura',17)
 
 print(ainura)
 print(beka)
-print(len(ainura))
+print(len(ainura),len(beka))
+
 # print(abs(ainura))
