@@ -8,3 +8,11 @@ git add .\namefile - добавит файлы для пуша
 git commit -m 'lesson'- cоздает чекпоит для сохранения
 git push origin master\main - отправляет файлы в репозиторий
 
+
+
+git rm --cached namefile - удаляет файлы
+git rm --cached -r namedir -папка или директория
+
+
+
+git status - показывает что твориться в проекте
