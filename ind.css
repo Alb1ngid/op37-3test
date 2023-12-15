@@ -1,0 +1,26 @@
+/*импорт*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body
+{
+    /*показать rgb*/
+    background-color:rgb(211,216,222) ;
+    /*использование импорта*/
+    font-family: 'Oswald', sans-serif;
+}
+
+h2
+{
+    /*по центру*/
+    text-align: center;
+    /*тень*/
+    text-shadow: 40px 24px 2px blue;
+}
+/*класс*/
+.stixi
+{
+    /*hазмер*/
+    font-size: 16px;
+    /*текст*/
+    text-decoration: line-through;
+}
