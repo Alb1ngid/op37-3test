@@ -24,4 +24,6 @@ git branch
 git branch name
 git checkout name
 
+git merge name branch
+
 git remote remove origin
