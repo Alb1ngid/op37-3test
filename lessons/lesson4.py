@@ -47,6 +47,28 @@ adil.__schet = 100000000
 adil.key = 1111
 adil._key = 1111
 adil.printKEY()
-
+adil._Bank2__schet = 100000000
+adil.printKEY()
 print(dir(Bank2))
 print(dir(adil))
+
+
+class Bank3(Bank2):
+    def __init__(self, name, _key, schet, l):
+        super().__init__(name, _key, schet)
+        self.l = l
+
+    def getKEY(self):
+        print(self._key)
+
+    def setKEY(self, key):
+        self._key = key
+
+
+c = Bank3('m', 123, 12343, 'l')
+# c.printKEY()
+# print(c.l)
+
+c.setKEY(222)
+c.getKEY()
+# print(Bank3.mro())
