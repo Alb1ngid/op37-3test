@@ -62,3 +62,7 @@ roman.oldrun()
 roman.run()
 roman.new()
 print(roman)
+# множественное наследование
+
+
+
