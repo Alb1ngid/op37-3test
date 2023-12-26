@@ -27,3 +27,6 @@ git checkout name
 git merge name branch
 
 git remote remove origin
+
+
+git pull
